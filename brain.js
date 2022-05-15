@@ -195,12 +195,12 @@ case '':
 
     const dbut = [
 {buttonId: '=help', buttonText: {displayText: '🍂 Help'}, type: 1},
-{buttonId: '=mods', buttonText: {displayText: '💥 Arus Team'}, type: 1}
+{buttonId: '=mods', buttonText: {displayText: '💥 Juice KiD'}, type: 1}
 ]
 let buttonMessaged = {
         image: {url:"https://telegra.ph/file/645707c1698c8a9515953.jpg"},
         caption: `*DID YOU MEAN =help ?*`,
-        footer: '©Arus 2022',
+        footer: '©Juice Bot 2022',
         buttons: dbut,
         headerType: 4
     }
@@ -213,97 +213,98 @@ let buttonMessaged = {
 case 'help':
 
 const hlp=`
- *U^I^U ♡ Konichiwa ${pushname} Senpai, I'm Mizuhara*
+ *U^I^U ♡ Konichiwa ${pushname} Senpai, I'm Juice Bot*
 
 🎋 \`\`\`Here are my listed commands, Have fun in using them:-\`\`\`
 
-🈸 *GENERAL* 🈸
+╔❖🈸 *GENERAL* 🈸
+║🎯 profile
 
-\`\`\`🎯 profile
+║🎯 rank
 
-🎯 rank
+║🎯 exp
 
-🎯 exp
+║🎯 delete
 
-🎯 delete
+║🎯 help
 
-🎯 help
+║🎯 creator
 
-🎯 creator
+║🎯 mods
 
-🎯 mods
-
-🎯 info\`\`\`
+║🎯 info\`\`\`
+╚════════════════❖
   
-⛩️ *ANIME* ⛩️
+╔❖⛩️ *ANIME* ⛩️
+║🎯 neko
 
-\`\`\`🎯 neko
+║🎯 waifu
 
-🎯 waifu
+║🎯 holo
 
-🎯 holo
+║🎯 fox_girl
 
-🎯 fox_girl
+║🎯 kemonomimi
 
-🎯 kemonomimi
+║🎯 anime
 
-🎯 anime
+║🎯 manga
 
-🎯 manga
+║🎯 wallpaper\`\`\`
+╚════════════════❖
 
-🎯 wallpaper\`\`\`
+╔❖❄️ *GROUP COMMANDS* ❄️
 
-❄️ *GROUP COMMANDS* ❄️
+║🎯 ping
 
-\`\`\`🎯 ping
+║🎯 add
 
-🎯 add
+║🎯 kick
 
-🎯 kick
+║🎯 promote
 
-🎯 promote
+║🎯 demote
 
-🎯 demote
+║🎯 group open
 
-🎯 group open
+║🎯 group close
 
-🎯 group close
+║🎯 linkgc
 
-🎯 linkgc
+║🎯 setgpfp
 
-🎯 setgpfp
-
-🎯 enable/disable
+║🎯 enable/disable
 
     🍂 antilink
 
     🍂 events\`\`\`
+╚════════════════❖
 
-🍁 *UTILS* 🍁
+╔❖🍁 *UTILS* 🍁
+║🎯 sticker
 
-\`\`\`🎯 sticker
+║🎯 toimg
 
-🎯 toimg
+║🎯 togif
 
-🎯 togif
+║🎯 tourl\`\`\`
+╚════════════════❖
 
-🎯 tourl\`\`\`
+╔❖🏷️ *MEDIA* 🏷️
+║🎯 yts
 
-🏷️ *MEDIA* 🏷️
+║🎯 ytv
 
-\`\`\`🎯 yts
+║🎯 yta
 
-🎯 ytv
+║🎯 play
 
-🎯 yta
+║🎯 google
 
-🎯 play
+║🎯 image\`\`\`
+╚════════════════❖
 
-🎯 google
-
-🎯 image\`\`\`
-
- 🍁 *©Powered by Arus* 🍁`
+ 🍁 *©Powered Juice KiD* 🍁`
   const hhbut = [
 {buttonId: '=info', buttonText: {displayText: '📤 Info'}, type: 1},
 {buttonId: '=profile', buttonText: {displayText: '🧧 Profile'}, type: 1}
@@ -311,7 +312,7 @@ const hlp=`
 let hbutto = {
         image: {url:"https://telegra.ph/file/9e58cb8f7cb23d7e7f94d.jpg"},
         caption: hlp,
-        footer: '©Arus 2022',
+        footer: '©Juice Bot 2022',
         buttons: hhbut,
         headerType: 4
     }
