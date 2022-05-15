@@ -14,10 +14,10 @@ global.APIKeys = {
 }
 
 // Other
-global.owner = ['918231033230']
-global.packname = 'Mizuhara'
-global.prefix= ['=']
-global.author = 'Arus'
+global.owner = ['263715183177']
+global.packname = 'Juice Bot'
+global.prefix= ['&']
+global.author = 'Juice KiD'
 global.sessionName = 'arus'
 global.reac = {
             cry:'Cried with',
