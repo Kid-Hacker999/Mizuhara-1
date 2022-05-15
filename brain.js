@@ -353,23 +353,23 @@ case 'info':
 const ibut = [
 {buttonId: '=profile', buttonText: {displayText: '🎋 Profile'}, type: 1},
 {buttonId: '=help', buttonText: {displayText: '🍂 Help'}, type: 1},
-{buttonId: '=mods', buttonText: {displayText: '💥 Arus Team'}, type: 1}
+{buttonId: '=mods', buttonText: {displayText: '💥 Juice KiD'}, type: 1}
 ]
-const inf=`❁ ════ ❃•💙 *MIZUHARA* 💙•❃ ════ ❁
+const inf=`❁ ════ ❃•💙 *Juice Bot* 💙•❃ ════ ❁
 \`\`\`A FULL FLEDGED MULTI DEVICE WHATSAPP BOT WITH COOL FEATURES\`\`\`
 ❁ ═══ ❃•📕 *INFORMATION*📕•❃ ═══ ❁
 \`\`\`A simple and easy-to-use WhatsApp bot project based on Multi-Device Baileys and written in JavaScript\`\`\`
 ❁ ══════ ❃•📄 *NOTE* 📄•❃ ══════ ❁
-\`\`\`This bot is a free open source project by THE TEAM ARUS\`\`\`
+\`\`\`This bot is a free open source project by Juice KiD\`\`\`
 ❁ ═════ ❃•📑 *GITHUB* 📑•❃ ═════ ❁
-*_LINK:- https://github.com/Arus-Bots/Mizuhara_*
+*_LINK:- https://github.com/JuiceKid/Juicy_*
 ❁ ═══ ❃•✍🏻 *CONTRIBUTE* ✍🏻•❃ ═══ ❁
 \`\`\`Feel free to open issues regarding any problems or if you have any feature feel free to contact owner by typing =owner or =mods\`\`\` 
 `
 let buttonMessagei = {
         image: { url: "https://telegra.ph/file/05a5910097d3dd9743ebb.jpg" },
         caption: inf,
-        footer: '©Arus 2022',
+        footer: '©Juice Bot 2022',
         buttons: ibut,
         headerType: 4
     }
@@ -381,32 +381,17 @@ case 'mods':
 const mod=`❁ ════ ❃• *MODERATORS* •❃ ════ ❁
 #1
 💥 *Username: Pratyush*
-🍁 *Contact: https://wa.me/+918231033230*
-#2
-💥 *Username: AiZen*
-🍂 *Contact: https://wa.me/+918709022955*
-#3
-💥 *Username: Tomioka*
-🍁 *Contact: https://wa.me/+917003213983*
-#4
-💥 *Username: Death*
-🍁 *Contact: https://wa.me/+917604016334*
-#5
-💥 *Username: Arin*
-🍁 *Contact: https://wa.me/+919330880626*
-#6
-💥 *Username: Manish*
-🍁 *Contact: https://wa.me/+919106196230*
-━━━━°❀•°:🤍 *MIZUHARA* 🤍:°•❀°━━━━`
+🍁 *Contact: https://wa.me/+263715183177*
+━━━━°❀•°:🤍 *Juice Bot* 🤍:°•❀°━━━━`
 const mbut = [
 {buttonId: '=creator', buttonText: {displayText: '🎋 Creator'}, type: 1},
 {buttonId: '=help', buttonText: {displayText: '🍂 Help'}, type: 1},
-{buttonId: '=mods', buttonText: {displayText: '💥 Arus Team'}, type: 1}
+{buttonId: '=mods', buttonText: {displayText: '💥 Juice KiD'}, type: 1}
 ]
 let buttonMessagem = {
         image: { url: "https://telegra.ph/file/05a5910097d3dd9743ebb.jpg" },
         caption: mod,
-        footer: '©Arus 2022',
+        footer: '©Juice Bot 2022',
         buttons: mbut,
         headerType: 4
     }
@@ -544,7 +529,7 @@ const buttonsd = [
 let buttonMessage = {
         image: { url: pfp },
         caption: profile,
-        footer: '©Arus 2022',
+        footer: '©Juice Bot 2022',
         buttons: buttonsd,
         headerType: 4
     }
@@ -577,7 +562,7 @@ arus.sendMessage(m.chat,{sticker:{url: webpWithMetadata}},{quoted:m})
                     fs.unlinkSync(media)
                     if (err) m.reply(err)
                     let buffer = fs.readFileSync(ran)
-                    arus.sendMessage(m.chat, { image: buffer,caption:'©MIZUHARA-2022' }, { quoted: m })
+                    arus.sendMessage(m.chat, { image: buffer,caption:'©Juice Bot-2022' }, { quoted: m })
                     fs.unlinkSync(ran)
                 })
             }    
@@ -949,7 +934,7 @@ case 'gimage':case 'image': {
       let buttonsMessage = {
        image: await getBuffer(waifud.data.url),
        caption:  `*Here is your waifu*`,
-      footer: '©Arus 2022',
+      footer: '©Juice Bot 2022',
       buttons: wbutss,
       headerType: 4
       }
@@ -1200,7 +1185,7 @@ var walb = [
       let wal = {
        image: {url:wallpaper[i].image},
        caption: `*Query :* ${q}`,
-      footer: '©Arus 2022',
+      footer: '©Juice Bot 2022',
       buttons: walb,
       headerType: 4
       }     
@@ -1509,10 +1494,10 @@ break
                 for (let i of anu) {
                     await sleep(1500)
                     
-                      let txt = `「 MIZUHARA BROADCAST 」\n\n${text}\n\nRegards~${pushname}`
+                      let txt = `「 Bot-Broadcast 」\n\n${text}\n\nRegards~${pushname}`
 const bcbut=[{buttonId:"=info",buttonText:{displayText:"Info"},type:1},
 {buttonId:"=creator",buttonText:{displayText:"Creator"},type:1},
-{buttonId:"=mods",buttonText:{displayText:"Arus Team"},type:1}]
+{buttonId:"=mods",buttonText:{displayText:"Juice KiD"},type:1}]
 
 const bcbutt={
     image: fs.readFileSync('./bc.jpg'),
