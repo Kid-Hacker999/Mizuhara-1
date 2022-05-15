@@ -217,91 +217,90 @@ const hlp=`
 
 🎋 \`\`\`Here are my listed commands, Have fun in using them:-\`\`\`
 
-╔❖🈸 *GENERAL* 🈸
-║🎯 profile
+╔❖〔✇ *GENERAL* ✇〕
+║🍹 profile
 
-║🎯 rank
+║🍹 rank
 
-║🎯 exp
+║🍹 exp
 
-║🎯 delete
+║❌ delete
 
-║🎯 help
+║🍹 help
 
-║🎯 creator
+║😉 creator
 
-║🎯 mods
+║😎 mods
 
-║🎯 info\`\`\`
+║ℹ info\`\`\`
 ╚════════════════❖
   
-╔❖⛩️ *ANIME* ⛩️
-║🎯 neko
+╔❖〔✇ *ANIME* ✇〕
+║🐤 neko
 
-║🎯 waifu
+║🐤 waifu
 
-║🎯 holo
+║🐤 holo
 
-║🎯 fox_girl
+║🐤 fox_girl
 
-║🎯 kemonomimi
+║🐤 kemonomimi
 
-║🎯 anime
+║🐤 anime
 
-║🎯 manga
+║🐤 manga
 
-║🎯 wallpaper\`\`\`
+║🐤 wallpaper\`\`\`
 ╚════════════════❖
 
-╔❖❄️ *GROUP COMMANDS* ❄️
+╔❖〔✇ *GROUP COMMANDS* ✇〕
+║👑 ping
 
-║🎯 ping
+║👑 add
 
-║🎯 add
+║👑 kick
 
-║🎯 kick
+║👑 promote
 
-║🎯 promote
+║👑 demote
 
-║🎯 demote
+║👑 group open
 
-║🎯 group open
+║👑 group close
 
-║🎯 group close
+║🚻 linkgc
 
-║🎯 linkgc
+║👑 setgpfp
 
-║🎯 setgpfp
+║👑 enable/disable
 
-║🎯 enable/disable
+║➲🍂 antilink
 
-    🍂 antilink
-
-    🍂 events\`\`\`
+║➲🍂 events\`\`\`
 ╚════════════════❖
 
-╔❖🍁 *UTILS* 🍁
-║🎯 sticker
+╔❖〔✇ *UTILS* ✇〕
+║🛸 sticker
 
-║🎯 toimg
+║🛸 toimg
 
-║🎯 togif
+║🛸 togif
 
-║🎯 tourl\`\`\`
+║🛸 tourl\`\`\`
 ╚════════════════❖
 
-╔❖🏷️ *MEDIA* 🏷️
-║🎯 yts
+╔❖〔✇ *MEDIA* ✇〕
+║📥 yts
 
-║🎯 ytv
+║📥 ytv
 
-║🎯 yta
+║📥 yta
 
-║🎯 play
+║📥 play
 
-║🎯 google
+║🔎 google
 
-║🎯 image\`\`\`
+║📥 image\`\`\`
 ╚════════════════❖
 
  🍁 *©Powered Juice KiD* 🍁`
@@ -917,7 +916,7 @@ case 'gimage':case 'image': {
                     caption: `
 💥 *Query* : ${text}
 `,
-                    footer: '©Arus 2022',
+                    footer: '©Juice Bot 2022',
                     buttons: buttons,
                     headerType: 4
                 }
@@ -978,7 +977,7 @@ case 'neko':
       let buttonssMessage = {
        image: {url:waifud.data.url},
        caption:  `*Here is your 🐱Neko*`,
-      footer: '©Arus 2022',
+      footer: '©Juice Bot 2022',
       buttons: wbutsss,
       headerType: 4
       }
@@ -998,7 +997,7 @@ case 'kemonomimi':
       let buttonssMessages = {
        image: {url:waifudd.data.url},
        caption:  `*Here You Go...*`,
-      footer: '©Arus 2022',
+      footer: '©Juice Bot 2022',
       buttons: wbuttsss,
       headerType: 4
       }     
